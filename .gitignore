@@ -7,6 +7,7 @@ local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
 
 # Android Studio generated files and folders
 captures/
@@ -15,12 +16,19 @@ captures/
 *.apk
 output.json
 
-# IntelliJ
+# IntelliJ IDEA files and directories
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+  # Specific IDEA files that might be present in the .idea/ directory
+  /caches
+  /libraries
+  /modules.xml
+  /workspace.xml
+  /navEditor.xml
+  /assetWizardSettings.xml
+  misc.xml
+  deploymentTargetDropDown.xml
+  render.experimental.xml
 
 # Keystore files
 *.jks
